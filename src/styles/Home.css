@@ -53,8 +53,8 @@
     .title-home {
         font-size: 10px;
     }
-    .deskripsi {
-        font-size: 8px;
+    .deskripsi p{
+        font-size: 12px;
         margin: -5px 10px;
     }
 }
