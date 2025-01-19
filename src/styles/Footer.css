@@ -15,6 +15,7 @@
 
 .link {
     display: flex;
+    justify-content: space-around;
 }
 
 .int {
@@ -51,18 +52,22 @@
 
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Pastikan elemen footer disusun vertikal pada layar kecil */
+        padding: 5px 0;
     }
-    .int {
-        font-size: 5px;
+
+    .link {
+        flex-direction: column; /* Tumpuk elemen secara vertikal */
+        align-items: center; /* Pusatkan elemen */
+    }
+
+    .int, .tt {
+        font-size: 7px; /* Sesuaikan ukuran teks */
         letter-spacing: normal;
     }
-    .tt {
-        font-size: 5px;
-        letter-spacing: normal;
-    }
+
+
     .wa {
-        font-size: 8px;
-        margin-top: -3px;
+        font-size: 7px; /* Sesuaikan ukuran teks untuk WhatsApp */
+        margin-top: 2px;
     }
 }

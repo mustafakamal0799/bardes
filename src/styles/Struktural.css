@@ -76,3 +76,28 @@
     font-size: 13px;
     list-style: none;
 }
+
+@media (max-width: 768px) {
+    .struktural h1 {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .bgStruk {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .card ul {
+        font-size: 5px;
+    }
+
+    h3, p {
+        font-size: 5px;
+    }
+
+    .card {
+        width: fit-content;
+        height: fit-content;
+    }
+}
