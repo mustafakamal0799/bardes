@@ -1,0 +1,78 @@
+.struktural {
+    height: 100vh;
+    padding: 20px;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+.bgStruk {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.116);
+}
+
+.ketua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ketua h3 {
+    text-align: center;
+}
+.wakilKetua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wakilKetua h3{
+    text-align: center;
+}
+
+.sekBen{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sekBen h3 {
+    text-align: center;
+}
+
+.seksi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.anggota-Humas h3{
+    text-align: center;
+}
+.anggotaKorlap h3{
+    text-align: center;
+}
+.anggotaKes h3{
+    text-align: center;
+}
+.anggotaPem h3{
+    text-align: center;
+}
+.anggotaDok h3{
+    text-align: center;
+}
+
+.card {
+    background-color: #913436;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 65px;
+    align-items: center;
+    color: #FFF6E3;
+    text-align: center;
+}
+.card ul {
+    display: contents;
+    font-size: 13px;
+    list-style: none;
+}

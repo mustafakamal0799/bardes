@@ -1,0 +1,60 @@
+.home {
+    display: inline;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.foto {
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 30px;
+    border: solid 4px black;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.493);
+}
+
+.foto img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.title-home {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.dd-one {
+    display: flex;
+    justify-content: center;
+}
+
+.deskripsi {
+    padding: 10px;
+    width: 800px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .foto {
+        height: 150px;
+        border: solid 2px black;
+    }
+    .title-home {
+        font-size: 10px;
+    }
+    .deskripsi {
+        font-size: 8px;
+        margin: -5px 10px;
+    }
+}
