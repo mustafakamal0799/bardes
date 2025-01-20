@@ -48,7 +48,7 @@ function Struktural() {
           </div>
         </div>
         <div className='anggotaKorlap'>
-          <h3>Kordinator Lapangan</h3>
+          <h3>KorLap</h3>
           <div className='card'>
             <ul>
               <li>Rahmad</li>

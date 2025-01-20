@@ -20,7 +20,8 @@ function Navbar() {
           <ul>
             <li><Link to="/">Beranda</Link></li>
             <li><Link to="/struktural">Struktural</Link></li>
-            <li><a href='#anggota'>Anggota</a></li>
+            <li><Link to="/anggota">Anggota</Link></li>
+            <li><Link to="/dokumentasi">Dokumentasi</Link></li>
           </ul>
         </div>
     </nav>

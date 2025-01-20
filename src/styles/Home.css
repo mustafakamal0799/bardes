@@ -16,9 +16,9 @@
     justify-content: center;
     align-items: center; 
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 10px;
     margin: 30px;
-    border: solid 4px black;
+    border: solid 1px #E6782b;
     box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.493);
 }
 
