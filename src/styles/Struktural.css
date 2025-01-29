@@ -115,7 +115,7 @@ h3 {
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .struktural-container {
         padding: 4rem 1rem;
     }

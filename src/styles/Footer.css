@@ -49,10 +49,17 @@
   p {
     font-size: 1.2rem;
   }
+
+  .icon {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 2rem;
+  }
   
   @media screen and (max-width: 640px) {
     .footer-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 25px;
     }
 
     .footer {
@@ -60,11 +67,22 @@
     }
 
     h4 {
-      font-size: 16px;
+      font-size: 8px;
     }
 
     p {
-      font-size: 12px;
+      font-size: 6px;
+    }
+    
+    .icon {
+      font-size: 10px;
+      margin-right: 0.7rem;
+    }
+
+    .location p{
+      margin-top: -10px;
+      line-height: 20px;
+      margin-bottom: -10px;
     }
   }
   
