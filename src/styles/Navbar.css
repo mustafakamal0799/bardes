@@ -54,7 +54,7 @@
     color: #FFF6E3;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 640px) {
     .title {
         display: none;
     }
@@ -70,6 +70,6 @@
     }
     .nav-link li {
         font-size: 10px;
-        margin: 0 5px;
+        margin: 0 -9px;
     }
 }
