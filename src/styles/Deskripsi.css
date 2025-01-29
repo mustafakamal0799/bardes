@@ -1,0 +1,40 @@
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title-deskripsi h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.mainContainer {
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.deskripsi-bardes {
+    font-size: 24px;
+    padding: 2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 640px) {
+    .mainContainer {
+        margin-top: 100px;
+    }
+    
+    .title-deskripsi h1{
+        font-size: 32px;
+    }
+
+    .deskripsi-bardes p {
+        font-size: 18px;
+        text-align: justify;
+    }
+}

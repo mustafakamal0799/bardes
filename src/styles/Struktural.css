@@ -1,8 +1,13 @@
 .struktural {
-    height: 100vh;
-    padding: 20px;
-    padding-bottom: 7%;
+    height: 100%;
+    width: 100%;
     text-align: center;
+}
+
+.struktural-container {
+    height: 100%;
+    width: 100%;
+    padding: 6rem 0;
 }
 
 .bgStruk {
@@ -17,23 +22,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .ketua h3 {
     text-align: center;
+    margin-bottom: 10px;
 }
 .wakilKetua {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .wakilKetua h3{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .sekBen{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .sekBen h3 {
@@ -43,6 +54,14 @@
 .seksi {
     display: flex;
     justify-content: space-around;
+
+}
+
+p {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .anggota-Humas h3{
@@ -61,6 +80,10 @@
     text-align: center;
 }
 
+h3 {
+    margin-bottom: 10px;
+}
+
 .card {
     background-color: #913436;
     border-radius: 10px;
@@ -71,18 +94,40 @@
     color: #FFF6E3;
     text-align: center;
 }
+
+
 .card ul {
     display: contents;
-    font-size: 13px;
+    font-size: 15px;
     list-style: none;
 }
 
+.card-seksi {
+    background-color: #913436;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    color: #FFF6E3;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
+    .struktural-container {
+        padding: 4rem 1rem;
+    }
+
     .struktural h1 {
-        font-size: 10px;
+        font-size: 25px;
+        margin-bottom: 1rem;
     }
 
     .bgStruk {
+        height: 70%;
+        width: 100%;
         padding: 10px;
         margin: 0;
     }
@@ -91,12 +136,22 @@
         font-size: 8px;
     }
 
-    h3, p {
+    h3 {
         font-size: 10px;
     }
 
     .card {
-        width: fit-content;
-        height: fit-content;
+        width: 100%;
+        height: 70%;
+    }
+    
+    .card p {
+        font-size: 8px;
+    }
+
+    .card-seksi {
+        width: 100%;
+        height: 70%;
+        font-size: 8px;
     }
 }
