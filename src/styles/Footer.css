@@ -54,5 +54,17 @@
     .footer-container {
       grid-template-columns: 1fr;
     }
+
+    .footer {
+      padding: 1rem 0;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 12px;
+    }
   }
   
