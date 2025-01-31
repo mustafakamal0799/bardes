@@ -13,10 +13,10 @@ const Kegiatan = () => {
                 <br></br>
                 <div className='card-k'>
                     <div>
-                        <img src={Bardes1} alt='image' />
+                        <img src={Bardes1} alt='foto1' />
                     </div>
                     <div>
-                        <img src={Bardes2} alt='image' />
+                        <img src={Bardes2} alt='foto2' />
                     </div>
                 </div>
             </div>
