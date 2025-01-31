@@ -39,7 +39,6 @@ function Navbar() {
         <div className='nav-link'>
           <ul>
             <li><Link to="/">Beranda</Link></li>
-            <li><Link to="/struktural">Struktural</Link></li>
             <li><Link to="/anggota">Anggota</Link></li>
             <li><Link to="/dokumentasi">Dokumentasi</Link></li>
           </ul>
