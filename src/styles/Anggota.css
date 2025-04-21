@@ -60,7 +60,7 @@
         max-width: 90%;
         margin: auto;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
+        grid-gap: 5px;
     }
     .card-pilar {
         background: #1a1919;
