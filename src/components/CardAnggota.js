@@ -7,7 +7,7 @@ const CardAnggota = (props) => {
         <img src={props.imgsrc} alt='foto-anggota' />
         <h2 className='anggota-title'>{props.title}</h2>
         <div className='anggota-jabatan'>
-            <p>{props.jabatan}</p>
+            <p>{props.ketua}</p>
         </div>
     </div>
   )

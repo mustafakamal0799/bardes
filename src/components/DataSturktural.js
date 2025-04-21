@@ -16,7 +16,7 @@ const StrukturalData = () => {
                 <div className="titleKetua">
                   <h3>Ketua</h3>
                   <div className="card">
-                    <p> ________________ </p>
+                    <p>Muhammad Zumbri</p>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,6 @@ const StrukturalData = () => {
                   <div className="card-seksi">
                     <ul>
                       <li>Rahman</li>
-                      <li>Muhammad Zumbri</li>
                       <li>Muhammad Alpian Nor</li>
                     </ul>
                   </div>

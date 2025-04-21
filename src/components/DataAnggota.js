@@ -1,49 +1,41 @@
 import iwan from '../assets/image/iwan.png'
+import abdur from '../assets/image/abdur.png'
+import aldi from '../assets/image/aldi.jpg'
+import anduh from '../assets/image/anduh.png'
+import daud from '../assets/image/daud.jpg'
+import donny from '../assets/image/donny.jpg'
+import fai from '../assets/image/fai.jpg'
+import fazril from '../assets/image/fazril.jpg'
+import hapi from '../assets/image/hapi.png'
+import idan from '../assets/image/idan.jpg'
+import jawaw from '../assets/image/jawaw.jpg'
+import wahyu from '../assets/image/wahyu.jpg'
+import amang from '../assets/image/amang.jpg'
 import Default from '../assets/image/default.jpg'
 
 const DataAnggota = [
     {
-        imgsrc: Default,
-        title: "Akhmad Dzikra Riyadi",
-        jabatan: "Wakil Ketua",
-    },
-    {
-        imgsrc: Default,
-        title: "Abu Bakar",
-        jabatan: "Bendahara",
-    },
-    {
-        imgsrc: Default,
-        title: "Mustafa Kamal",
-        jabatan: "Sekretaris",
-    },
-    {
-        imgsrc: Default,
+        imgsrc: fazril,
         title: "Muhammad Fazril",
         jabatan: "Humas",
     },
     {
-        imgsrc: Default,
+        imgsrc: jawaw,
         title: "Muhammad Rizal",
         jabatan: "Humas",
     },
     {
-        imgsrc: Default,
+        imgsrc: idan,
         title: "Muhammad Aldi Syahputra",
         jabatan: "Humas",
     },
     {
-        imgsrc: Default,
+        imgsrc: abdur,
         title: "Rahman",
         jabatan: "Kordinator Lapangan",
     },
     {
-        imgsrc: Default,
-        title: "Muhammad Zumbri",
-        jabatan: "Kordinator Lapangan",
-    },
-    {
-        imgsrc: Default,
+        imgsrc: anduh,
         title: "Muhammad Alpian Nor",
         jabatan: "Kordinator Lapangan",
     },
@@ -53,22 +45,22 @@ const DataAnggota = [
         jabatan: "Kesehatan",
     },
     {
-        imgsrc: Default,
+        imgsrc: amang,
         title: "Muhammad Ansyari",
         jabatan: "Kesehatan",
     },
     {
-        imgsrc: Default,
+        imgsrc: donny,
         title: "Muhammad Donny Septian",
         jabatan: "Kesehatan",
     },
     {
-        imgsrc: Default,
+        imgsrc: fai,
         title: "Ahmad Rifai",
         jabatan: "Pemeliharaan",
     },
     {
-        imgsrc: Default,
+        imgsrc: hapi,
         title: "Muhammad Khafi",
         jabatan: "Pemeliharaan",
     },
@@ -78,17 +70,17 @@ const DataAnggota = [
         jabatan: "Pemeliharaan",
     },
     {
-        imgsrc: Default,
+        imgsrc: wahyu,
         title: "Muhammad Wahyuni",
         jabatan: "Dokumentasi",
     },
     {
-        imgsrc: Default,
+        imgsrc: daud,
         title: "Muhammad Daud",
         jabatan: "Dokumentasi",
     },
     {
-        imgsrc: Default,
+        imgsrc: aldi,
         title: "Muhammad Aldi",
         jabatan: "Dokumentasi",
     },

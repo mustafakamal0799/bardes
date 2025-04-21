@@ -1,15 +1,33 @@
 .ang-heading {
     text-align: center;
-    padding: 6rem 0 4rem 0;
+    padding: 6rem 0 2rem 0;
 }
 
+.title-heading {
+    text-align: center;
+    margin: 2rem 0 -5rem 0;
+    color: #fff;
+}
 .anggota-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+}
+
+.pilar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-pilar {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    width: 350px;
 }
 
 .card-anggota {
@@ -17,18 +35,22 @@
     padding: 1.2rem 1rem;
 }
 
+.card-pilar img {
+    width: 100%;
+}
 .card-anggota img {
     width: 100%;
+    height: 400px;
 }
 
 .anggota-title {
     color: #fff;
     padding: 1rem 0;
+    font-size: 1rem;
     text-align: center;
 }
 
 .anggota-jabatan p {
-    padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: center;
 }
@@ -37,7 +59,7 @@
     .anggota-container{
         max-width: 90%;
         margin: auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .anggota-title {
@@ -51,5 +73,8 @@
 
     .card-anggota img {
         width: 100%;
+        height: 150px;
     }
+
+
 }
